@@ -1,0 +1,35 @@
+<view class="wrap">
+  <view class='screen'>
+ {{screenData}}
+  </view>
+  <view class='btnGroup'>
+    <view class='item ple' bindtap='clickbtn' id="{{index1}}">退格</view>
+    <view class='item ple' bindtap='clickbtn' id="{{index2}}">清空</view>
+    <view class='item ple' bindtap='clickbtn' id="{{index3}}">+/-</view>
+    <view class='item ple' bindtap='clickbtn' id="{{index4}}">+</view>
+  </view>
+   <view class='btnGroup'>
+    <view class='item ori' bindtap='clickbtn' id="{{index5}}">7</view>
+    <view class='item ori' bindtap='clickbtn' id="{{index6}}">8</view>
+    <view class='item ori' bindtap='clickbtn' id="{{index7}}">9</view>
+    <view class='item ple' bindtap='clickbtn' id="{{index8}}">-</view>
+  </view>
+   <view class='btnGroup'>
+    <view class='item ori' bindtap='clickbtn' id="{{index9}}">4</view>
+    <view class='item ori'bindtap='clickbtn' id="{{index10}}">5</view>
+    <view class='item ori'bindtap='clickbtn' id="{{index11}}">6</view>
+    <view class='item ple'bindtap='clickbtn' id="{{index12}}">*</view>
+  </view>
+   <view class='btnGroup'>
+    <view class='item ori' bindtap='clickbtn' id="{{index13}}">1</view>
+    <view class='item ori' bindtap='clickbtn' id="{{index14}}">2</view>
+    <view class='item ori' bindtap='clickbtn' id="{{index15}}">3</view>
+    <view class='item ple' bindtap='clickbtn' id="{{index16}}">/</view>
+  </view>
+   <view class='btnGroup'>
+    <view class='item ori' bindtap='clickbtn' id="{{index17}}">0</view>
+    <view class='item ori' bindtap='clickbtn' id="{{index18}}">.</view>
+    <view class='item ori' bindtap='history' id="{{index20}}">历史</view>
+    <view class='item ple' bindtap='clickbtn' id="{{index19}}">=</view>
+  </view>
+</view>

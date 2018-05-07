@@ -1,0 +1,22 @@
+.wrap{
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #FFCDD2;
+  padding-top: 20px;
+}
+.item{
+width: 90%;
+min-height: 50rpx;
+border-radius: 3px;
+margin-top: 3rpx;
+margin-bottom: 5rpx;
+text-align: center;
+line-height: 100rpx;
+background:#E1BEE7;
+color:aliceblue;
+border: 1px solid aliceblue;
+
+}

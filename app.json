@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/calculator/calculator",
+    "pages/list/list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "计算器",
+    "navigationBarTextStyle":"black"
+  }
+}
